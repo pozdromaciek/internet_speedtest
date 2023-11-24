@@ -64,15 +64,16 @@ try:
     plt.plot(data_frame["Timestamp"], data_frame["Download"], label="Download", marker='o')
     plt.plot(data_frame["Timestamp"], data_frame["Upload"], label="Upload", marker='o')
 
-    # Add labels with point values
-    for i, txt in enumerate(data_frame["Download"]):
-        plt.annotate(txt, (data_frame["Timestamp"].iloc[i], data_frame["Download"].iloc[i]), ha='right', va='bottom')
+    # Uncomment this section if you prefer more detailed labels.
+    # # Add labels with point values
+    # for i, txt in enumerate(data_frame["Download"]):
+    #     plt.annotate(txt, (data_frame["Timestamp"].iloc[i], data_frame["Download"].iloc[i]), ha='right', va='bottom')
 
-    for i, txt in enumerate(data_frame["Upload"]):
-        plt.annotate(txt, (data_frame["Timestamp"].iloc[i], data_frame["Upload"].iloc[i]), ha='right', va='bottom')
+    # for i, txt in enumerate(data_frame["Upload"]):
+    #     plt.annotate(txt, (data_frame["Timestamp"].iloc[i], data_frame["Upload"].iloc[i]), ha='right', va='bottom')
 
-    # Set X-axis labels only to the values from the data
-    plt.xticks(data_frame["Timestamp"], rotation=45, ha='right')
+    # # Set X-axis labels only to the values from the data
+    # plt.xticks(data_frame["Timestamp"], rotation=45, ha='right')
 
     # Add labels and legend
     plt.xlabel("Timestamp")
