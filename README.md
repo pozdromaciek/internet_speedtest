@@ -1,16 +1,13 @@
-# internet_speedtest
-Automated Internet Speed Test generating CSV output file and graph.
+# Internet Speed Test
+An automated Internet Speed Test script that generates a CSV output file and graph.
 
-You can set intervals between test, script will prompt for this.
+You can customize test intervals; the script will prompt you for this information.
 
-## Backstory
-I was looking for some Speed Test tool that will do tests on desired interval and save results to file, because I just got new internet and wanted to try the speeds to make sure ISP is not bullshitting. Couldn't find any app that fits my requirements (maybe I'm just bad at searching), so I created simple script. Then I added graph to visualise internet speed. You might find this script useful.
+## Background
+While searching for a Speed Test tool that could perform tests at desired intervals and save results to a file, I couldn't find an application that met my requirements. Perhaps my searching skills are lacking, so I decided to create a simple script. Later, I added a graph to visualize internet speed. You may find this script useful for monitoring your internet speeds.
 
 ## Installation
-You need libs from requirements:
-```bash
-pip install -r requirements.txt
-```
-## How to use
-Please run the script as Administartor of you're getting Access Denied error.
+Ensure you have the required libraries by running:
 
+```bash
+pip install -r requirements.tx
