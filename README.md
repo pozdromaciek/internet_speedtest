@@ -10,4 +10,7 @@ While searching for a Speed Test tool that could perform tests at desired interv
 Ensure you have the required libraries by running:
 
 ```bash
-pip install -r requirements.tx
+pip install -r requirements.txt
+```
+## How to use
+Run the script as an administrator if you encounter an "Access Denied" error.
