@@ -14,3 +14,5 @@ pip install -r requirements.txt
 ```
 ## How to use
 Run the script as an administrator if you encounter an "Access Denied" error.
+
+Press `CTRL + C` to stop the script at any time.
